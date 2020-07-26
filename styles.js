@@ -82,7 +82,6 @@ export default StyleSheet.create({
         alignItems: "center",
         marginBottom: 20
     },
-<<<<<<< HEAD
     paragraphChoose: {
         flex:1,
         paddingHorizontal: 16,
@@ -102,7 +101,6 @@ export default StyleSheet.create({
 
 
 
-=======
     rightLetterBox: { //Styling for letter boxes on right hand side
         marginRight: 50,
         borderRadius: 10,
@@ -127,5 +125,4 @@ export default StyleSheet.create({
         fontSize: 22,
         fontWeight: "bold"
     }
->>>>>>> upstream/master
 })
