@@ -25,7 +25,22 @@ function reducer (state, action){
       }
   }
 } 
-
+ (state,action)=> //This is just a duplicate of the previous function. Using this to test arrow funnctions.
+ {
+  switch(action.type){
+    case "pick":
+      const data = action.payload // data of the assessment number
+      return {
+        ...state,
+        assessment: {...assessments[data-1]}
+      }
+    case "close":
+      return {
+        ...state,
+        assessment: null
+      }
+  }
+ }
 
 export default function App() {
   
